@@ -1,0 +1,157 @@
+body{
+    color: #D3D3D3;
+    font-family: Geneva, Tahoma, sans-serif;
+    background-color: rgb(9, 1, 1);
+    text-decoration: none;
+    background-image: url("backgroundpic.jpg");
+}
+/* keskel olev kast contenti taga*/
+.container {
+  background-color: #1e1e1e; 
+  padding: 50px; 
+  margin: 0 auto; 
+  max-width: 1200px; 
+}
+
+a {
+    text-decoration: none;
+}
+
+/*navbar*/
+.navbar {
+    font-family: Geneva, sans-serif;
+  }
+.navbar a {
+    color: #D3D3D3;
+    font-weight: bold;
+}
+
+/*header*/
+.headerMain{
+    background-size: cover;
+    background: no-repeat center center;
+    background-image: url("bgimg.jpg");
+    background-color: rgba(128, 128, 128, 0.6);
+    text-align: center;
+    padding: 50px 0;
+}
+.bg-box {
+    background-color: rgba(128, 128, 128, 0.6);
+    text-align: center;
+    padding: 50px 0;
+    position: auto;
+    scale: 80%;
+}
+  
+  .headerMain .display-4 {
+    color: #C0C0C0;
+    font-weight: bold;
+    font-size: 36px;
+  }
+  
+  .headerMain .display-2 {
+    color: #C0C0C0;
+    font-weight: bold;
+    font-size: 72px;
+  }
+  
+  .headerMain .text-muted {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .highlight {
+    color: #D3D3D3;
+    font-weight: bold;
+  }
+
+/*sisu I, Diana*/
+#id_about {
+    padding-top: 50px;
+  }
+  
+  #id_about h1 {
+    font-size: 36px;
+    color: #C0C0C0;
+    font-weight: bold;
+  }
+
+.image-column {
+    float: right;
+    width: 50%;
+}
+.headingtext{
+    color: #C0C0C0;
+    padding:150px 0px;
+}
+
+
+
+
+/*üldine*/
+p {
+    font-family: Geneva, Tahoma, sans-serif;
+    color: #D3D3D3;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+/* h5 contact only*/
+h5 {
+  padding: 10px;
+}
+
+.skills {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+ul a {
+  color: rgba(128, 128, 128, 0.6);
+}
+
+h3 {
+  text-align: center;
+}
+
+/*projects*/
+
+.box img:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.box {
+  text-align: center;
+  
+}
+
+#project h2 {
+  text-align: center;
+  color: #D3D3D3;
+  
+}
+
+#project p {
+  text-align: center;
+  color: rgba(128, 128, 128, 0.6);
+ 
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#project h2:hover{
+  color: pink;
+}
